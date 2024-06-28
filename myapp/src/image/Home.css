@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans&display=swap');
+#skills #about1 {
+    margin-bottom: 2rem;
+  }
+  
+  #skill-logo {
+    flex-wrap: wrap; /* Allows wrapping if there are too many items */
+  }
+  
+  .logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem; /* Adjusts the spacing between items */
+  }
+  
+  .logoimg {
+    width: 80px; /* Set a fixed width */
+    height: 80px; /* Set a fixed height */
+    object-fit: contain; /* Ensures the image fits within the bounds */
+  }
+  
+  .logo-name {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+
+* {
+    background-color: black;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #420177;
+}
+
+html::-webkit-scrollbar-track {
+    background: rgb(235, 202, 245);
+}
+
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#home {
+    margin: "15vh 9% 0 9%"
+}
+
+#home-mid {
+    margin: 15vh 9% 0 9%;
+}
+
+#home-1 {
+    padding: 0px;
+    margin: 1rem 0;
+    /* width: 100%; */
+    width: 100vw;
+
+}
+
+#changable {
+    font-family: 'Playfair Display', serif;
+}
+
+#home-para {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(136, 135, 135);
+    line-height: 1.75rem;
+
+}
+
+#buildhead {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 100;
+
+}
+
+#resume-btn {
+    color: white;
+    padding: 13px 32px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #0E7490;
+    border: none;
+}
+
+#resume-btn:hover {
+    background-color: rgb(110, 83, 65);
+}
+
+#manpic {
+    height: 450px;
+
+    filter: drop-shadow(4px 4px 18px rgb(132, 180, 235));
+
+    background-color: transparent;
+}
+
+#manpic:hover {
+    filter: drop-shadow(4px 4px 10px rgb(132, 180, 235));
+}
+
+#imgbox {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:940px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        /* width: 65%; */
+        overflow-x: hidden;
+        background-color: black;
+    }
+
+    #top-name-box {
+        width: 160%;
+    }
+
+
+    #home {
+        padding: 0;
+        margin: 13vh 0% 0px 0;
+        height: 62vh;
+    }
+
+    #home-mid {
+        margin: 17vh 0% 0 4%;
+        height: 100%;
+    }
+
+    #home-1 {
+        padding: 0px;
+        margin: 0;
+        /* width: 100%; */
+        width: 100vw;
+
+
+    }
+
+    #imgbox {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        height: 50px;
+    }
+
+    #manpic {
+        margin: 0 23vw 0 0;
+        padding: 0;
+        height: 116px;
+    }
+
+    /* .top-name-text {
+        /* width: 160%; */
+    } */
+
+    #buildhead-box {
+        width: 5000%;
+    }
+
+    #buildhead {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.8rem;
+        font-weight: 100;
+        letter-spacing: 0px;
+        margin: 4rem 0rem 1rem 0rem;
+    }
+
+    #resume-btn-box {
+        padding: 50px 0px 0px 0px;
+    }
+
+    #home-para{
+        width: 121%;
+    }
+
+
+

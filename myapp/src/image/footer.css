@@ -1,0 +1,84 @@
+@font-face {
+    font-family: chirag;
+     src: url('./chiragimg.otf');
+}
+
+#fontlogo {
+    margin-left: 8vw;
+    font-family: chirag;
+    color: white;
+    padding: 0px 15px;
+    font-size: 55px;
+    opacity: 0.6;
+    border-right: 2px solid rgb(165, 165, 165);
+}
+
+#contact {
+    margin: 5vh 0% 0 0%;
+    height: 100vh;
+}
+
+#form-input-box {
+
+    /* width: 82vw; */
+    margin: auto;
+    margin-top: 70px;
+
+}
+
+
+@media screen and (max-width:940px) {
+
+    #contact {
+        margin: 5vh 9% 0px;
+        height: 210vh;
+    }
+
+    #forline {
+        font-size: 40px;
+    }
+
+    div#contact-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #form-inputs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #submit-btn {
+        width: auto;
+    }
+
+    #footer {
+        height: 41vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #footer-para-box {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 7vh;
+    }
+
+    #footer-para {
+        text-align: center;
+
+    }
+
+    #fontlogo {
+        border-right: none;
+        border-top: 2px solid gray;
+        text-align: center;
+        width: 109vw;
+        padding-right: 10vw;
+    }
+
+    #footer-social {
+        margin-bottom: 8vh;
+    }
+
+}

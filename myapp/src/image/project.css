@@ -1,0 +1,37 @@
+#projects {
+    margin: "5vh 9% 0 9%"
+}
+
+
+@media screen and (max-width:940px) {
+
+    #forline{
+        font-size: 40px;
+    }
+
+    #projects {
+        margin-top: 250px;
+    }
+    
+    #project1 {
+        margin: 0px;
+        margin-top: 4vh;
+        margin-bottom: 3vh;
+    }
+
+    #project-item {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+
+
+}
+@media screen and (max-width:720px) {
+
+  
+    #skills-tools{
+        margin-top: 30%;
+    }
+   
+
+}
